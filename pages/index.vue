@@ -1,5 +1,8 @@
 <template>
-  <div class="container"><h1>Simen</h1></div>
+  <div class="container">
+    <h1>Simen</h1>
+    <h2>Testing the automatic update</h2>
+  </div>
 </template>
 
 <script>
@@ -14,6 +17,12 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.container h1,
+.container h2 {
+  display: block;
+  width: 100%;
 }
 
 .title {
